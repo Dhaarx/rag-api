@@ -55,7 +55,7 @@ def extract_images_from_pdf_based_on_query(pdf1_path, query=None):
 
 @app.route('/')
 def home():
-    return "welcome to the crop prediction API"
+    return "welcome to the rag API"
 
 
 @app.route('/favicon.ico')
